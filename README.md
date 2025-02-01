@@ -34,6 +34,8 @@ References for NPM
 * https://docs.npmjs.com/cli/v8/commands/npx
 
 Git
+Clone
+* https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls
 
 Remove "node_modules" directory that was mistakenly pushed to GitHub repo.
 $ git rm -r --cached node_modules
