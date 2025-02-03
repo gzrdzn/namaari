@@ -20,6 +20,7 @@ $ npm list express
 $ npm start
 
 # Run App in Debug Mode
+# ----
 $ DEBUG=namaari:* npm start
 ```
 
