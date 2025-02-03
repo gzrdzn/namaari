@@ -10,17 +10,20 @@ $ npm install -g express-generator
 $ express --view=pug namaari
 $ cd namaari
 $ npm install
-```
 
-```
+# To see which version of Express is in use:
+# ----  
+$ npm list express
+
 # Run App
 # ----
+$ npm start
+
+# Run App in Debug Mode
 $ DEBUG=namaari:* npm start
 ```
 
 ## Additional Steps
-To see which version of Express is in use:  
-`$ npm list express`
 
 ## References for ExpressJS
 * https://expressjs.com/
