@@ -2,6 +2,9 @@ Initial Cloud Native application using Docker with an Express
 
 > In a different world, maybe we could have been friends, but I have to do what's right for FANG. - Namaari
 
+1. Create a NodeJS app.
+2. To make app into a Cloud Native app, use CloudNativeJS to convert NodeJS app into a CloudNativeJS app.
+
 ## Quick Steps
 ```
 # Install App via Express framework
@@ -23,8 +26,6 @@ $ npm start
 # ----
 $ DEBUG=namaari:* npm start
 ```
-
-## Additional Steps
 
 ## References for ExpressJS
 * https://expressjs.com/
@@ -59,3 +60,19 @@ $ git push origin main
 
 Commit "package-lock.json" or not? Yes, commit.
 * [https://stackoverflow.com/questions/44206782/do-i-commit-the-package-lock-json-file-created-by-npm-5](https://stackoverflow.com/questions/44206782/do-i-commit-the-package-lock-json-file-created-by-npm-5)
+
+# [CloudNativeJS](https://cloudnativejs.io/)
+* Navigate to Docker. Was [here under CloudNativeJS](https://github.com/CloudNativeJS/docker), but now under [NodeShift here](https://github.com/nodeshift/docker).
+
+## WGet
+Verify WGet is installed.
+```
+wget --version
+```
+
+[Install WGet](https://formulae.brew.sh/formula/wget) from within Terminal, if not.
+```
+brew install wget
+```
+
+wget https://raw.githubusercontent.com/CloudNativeJS/docker/master/{file}
