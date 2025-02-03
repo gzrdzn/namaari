@@ -2,18 +2,18 @@ Initial Cloud Native application using Docker with an Express
 
 > You are only as good as you believe.
 
-Quick Steps
+## Quick Steps
 $ npm install -g express-generator
 $ express --view=pug namaari
 $ cd namaari
 $ npm install
 $ DEBUG=namaari:* npm start
 
-Additional Steps
+## Additional Steps
 To see which version of Express is in use:
 $ npm list express
 
-References for ExpressJS
+## References for ExpressJS
 * https://expressjs.com/
 * https://expressjs.com/en/starter/installing.html
 * https://expressjs.com/en/starter/generator.html
@@ -21,21 +21,19 @@ References for ExpressJS
 * https://expressjs.com/en/guide/using-template-engines.html
 * https://www.npmjs.com/package/pug
 
-Troubleshooting Steps
+## Troubleshooting Steps
 [Solution for $ express: command not found](https://stackoverflow.com/questions/23002448/express-command-not-found)
 
-
+## Express 4.x
 Since I'm using Express 4.x, I have not upgraded to using Express 5.x due to the Express Generator using Express 4.x (or so it seems to me).
 For more information on Express 5.x, see [https://expressjs.com/en/guide/migrating-5.html](https://expressjs.com/en/guide/migrating-5.html). 
 To learn about Express 5.x, see [https://expressjs.com/en/5x/api.html](https://expressjs.com/en/5x/api.html).
 
-NPM
-
-References for NPM
+## NPM References
 * [https://docs.npmjs.com/cli/v8/commands/npx](https://docs.npmjs.com/cli/v8/commands/npx)
 
-Git
-Clone
+## Git
+### Clone
 * [https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls](https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls)
 
 Remove "node_modules" directory that was mistakenly pushed to GitHub repo.
