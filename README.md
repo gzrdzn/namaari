@@ -1,6 +1,6 @@
 Initial Cloud Native application using Docker with an Express 
 
-> You are only as good as you believe.
+> In a different world, maybe we could have been friends, but I have to do what's right for FANG.
 
 ## Quick Steps
 ```
