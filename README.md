@@ -3,15 +3,17 @@ Initial Cloud Native application using Docker with an Express
 > You are only as good as you believe.
 
 ## Quick Steps
+```
 $ npm install -g express-generator
 $ express --view=pug namaari
 $ cd namaari
 $ npm install
 $ DEBUG=namaari:* npm start
+```
 
 ## Additional Steps
 To see which version of Express is in use:
-$ npm list express
+`$ npm list express`
 
 ## References for ExpressJS
 * https://expressjs.com/
