@@ -1,5 +1,7 @@
 Initial Cloud Native application using Docker with an Express 
 
+> You are only as good as you believe.
+
 Quick Steps
 $ npm install -g express-generator
 $ express --view=pug namaari
@@ -20,28 +22,29 @@ References for ExpressJS
 * https://www.npmjs.com/package/pug
 
 Troubleshooting Steps
-> express: command not found
-https://stackoverflow.com/questions/23002448/express-command-not-found
+[Solution for $ express: command not found](https://stackoverflow.com/questions/23002448/express-command-not-found)
 
 
 Since I'm using Express 4.x, I have not upgraded to using Express 5.x due to the Express Generator using Express 4.x (or so it seems to me).
-For more information on Express 5.x, see https://expressjs.com/en/guide/migrating-5.html. 
-To learn about Express 5.x, see https://expressjs.com/en/5x/api.html.
+For more information on Express 5.x, see [https://expressjs.com/en/guide/migrating-5.html](https://expressjs.com/en/guide/migrating-5.html). 
+To learn about Express 5.x, see [https://expressjs.com/en/5x/api.html](https://expressjs.com/en/5x/api.html).
 
 NPM
 
 References for NPM
-* https://docs.npmjs.com/cli/v8/commands/npx
+* [https://docs.npmjs.com/cli/v8/commands/npx](https://docs.npmjs.com/cli/v8/commands/npx)
 
 Git
 Clone
-* https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls
+* [https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls](https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls)
 
 Remove "node_modules" directory that was mistakenly pushed to GitHub repo.
+```
 $ git rm -r --cached node_modules
 $ git commit -m "remove the ignored directory node_modules"
 $ git push origin main
-* https://stackoverflow.com/questions/44168609/node-js-modules-pushed-to-github
+```
+* [https://stackoverflow.com/questions/44168609/node-js-modules-pushed-to-github](https://stackoverflow.com/questions/44168609/node-js-modules-pushed-to-github)
 
 Commit "package-lock.json" or not? Yes, commit.
-* https://stackoverflow.com/questions/44206782/do-i-commit-the-package-lock-json-file-created-by-npm-5
+* [https://stackoverflow.com/questions/44206782/do-i-commit-the-package-lock-json-file-created-by-npm-5](https://stackoverflow.com/questions/44206782/do-i-commit-the-package-lock-json-file-created-by-npm-5)
