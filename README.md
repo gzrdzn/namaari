@@ -1,6 +1,6 @@
 Initial Cloud Native application using Docker with an Express 
 
-> In a different world, maybe we could have been friends, but I have to do what's right for FANG.
+> In a different world, maybe we could have been friends, but I have to do what's right for FANG. - Namaari
 
 ## Quick Steps
 ```
