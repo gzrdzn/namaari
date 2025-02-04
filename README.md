@@ -84,3 +84,6 @@ $ wget --version
 ```
 $ brew install wget
 ```
+
+# References
+[Dockerfile Basics](https://gist.github.com/mocon/0b567f77b693d73c41db5dcc6cacc8be)
