@@ -64,15 +64,23 @@ Commit "package-lock.json" or not? Yes, commit.
 # [CloudNativeJS](https://cloudnativejs.io/)
 * Navigate to Docker. Was [here under CloudNativeJS](https://github.com/CloudNativeJS/docker), but now under [NodeShift here](https://github.com/nodeshift/docker).
 
+Follow the steps with the [Docker Templates for NodeJS](https://github.com/nodeshift/docker?tab=readme-ov-file#docker-templates-for-nodejs)
+```
+$ wget https://raw.githubusercontent.com/CloudNativeJS/docker/master/Dockerfile
+$ wget https://raw.githubusercontent.com/CloudNativeJS/docker/master/Dockerfile-tools
+$ wget https://raw.githubusercontent.com/CloudNativeJS/docker/master/Dockerfile-run
+```
+
+# [Docker](https://www.docker.com/)
+* [Get Started](https://docs.docker.com/get-started/)
+
 ## WGet
 Verify WGet is installed.
 ```
-wget --version
+$ wget --version
 ```
 
 [Install WGet](https://formulae.brew.sh/formula/wget) from within Terminal, if not.
 ```
-brew install wget
+$ brew install wget
 ```
-
-wget https://raw.githubusercontent.com/CloudNativeJS/docker/master/{file}
